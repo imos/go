@@ -1,0 +1,4 @@
+go
+==
+
+Imos' Go Library
