@@ -5,12 +5,12 @@ libraries = var_dump
 all: $(foreach library,$(libraries),all/$(library))
 
 all/%: %
-	cd "$*"; go build -v
+	cd "$*"; go build
 
 test: $(foreach library,$(libraries),test/$(library))
 
 test/%: %
-	cd "$*"; go test -v
+	cd "$*"; go test
 
 format: $(foreach library,$(libraries),format/$(library))
 
