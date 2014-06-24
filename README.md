@@ -1,4 +1,4 @@
-go
+Go
 ==
 
 Imos' Go Library
